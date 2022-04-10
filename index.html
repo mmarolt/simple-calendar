@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sl">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="icon" href="./img/calendar_icon.png">
+        <title>My calendar</title>
+    </head>
+    <body>
+        <div id="box">
+            <div id="choice">
+                <select id="month" class="inline"></select>
+                <input id="year" class="inline">
+                <input id="date" type="date" class="inline">
+                <label for="csv" class="inline">
+                    <img src="./img/file_icon.png"/>
+                </label>
+                <input id="csv" type="file" class="inline" accept=".csv"/>
+            </div>
+            <table id="calendar-table"></table>
+        </div>
+        <script type="text/javascript" src="./calendar.js"></script>
+        <script type="text/csv" src="./holidays.csv"></script>
+    </body>
+</html>
