@@ -2,6 +2,8 @@
 
 This calendar shows days of current month, one week in a row. Sundays are colored in darker shade and holidays have different color. In the row above one can choose specific month, year or day that is shown. There is option to upload a csv file with holidays.
 
+![calendar_preview](/simple-calendar/img/calendar.png)
+
 ## How to use calendar?
 
 1. Open `index.html` file.
